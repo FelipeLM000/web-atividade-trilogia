@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --cor-primaria: #FF6311;
+    --cor-secundaria: #2c2b2b;
+    --espacamento: 0px 25px;
+    font-size: 16px;
+}
+
+
+header {
+    background-color: var(--cor-secundaria);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--espacamento);
+}
+
+
+.header-menu ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.header-menu ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.header-menu ul li a:hover {
+    color: var(--cor-primaria);
+}
+
+
+main {
+    background-image: url(../img/banner.png);
+    height: 700px;
+    background-position: center;
+    padding: var(--espacamento);
+    background-size: cover;
+    width: 100%;
+}
+
+.container-main {
+    width: 50%;
+    padding: 450px 0px 0px 0px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-title {
+    font-size: 45px;
+    color: white;
+}
+
+.main-description {
+    color: white;
+}
+
+.main-button {
+    width: 200px;
+    height: 30px;
+    background-color: var(--cor-primaria);
+    border: none;
+}
+
+.main-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-button:hover {
+    background-color: var(--cor-secundaria);
+}
+
+section {
+    padding: var(--espacamento);
+}
+
+#section-dance {
+    background-color: var(--cor-primaria);
+    padding: 15px 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.container-title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.card {
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--cor-secundaria);
+
+    color: white;
+}
+
+.card figure img {
+    width: 100%;
+}
+
+.card p {
+    text-align: justify;
+    padding: 10px;
+}
+
+#section-pricing {
+    background-color: var(--cor-secundaria);
+    padding: 15px 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.card-pricing {
+    background-color: var(--cor-primaria);
+    padding: 25px;
+}
+
+.container-button {
+    background-color: var(--cor-secundaria);
+}
